@@ -2,39 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="15858" started-at="2021-07-27T15:09:45 IST" finished-at="2021-07-27T15:10:01 IST">
+  <suite name="Default suite" duration-ms="55" started-at="2021-08-02T14:14:15 IST" finished-at="2021-08-02T14:14:15 IST">
     <groups>
-      <group name="cucumber">
-        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumber_Runner.Cucumber_Runner@7e9a5fbe]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
-      </group> <!-- cucumber -->
     </groups>
-    <test name="Default test" duration-ms="15858" started-at="2021-07-27T15:09:45 IST" finished-at="2021-07-27T15:10:01 IST">
-      <class name="cucumber_Runner.Cucumber_Runner">
-        <test-method status="PASS" signature="setUpClass()[pri:0, instance:cucumber_Runner.Cucumber_Runner@7e9a5fbe]" name="setUpClass" is-config="true" duration-ms="271" started-at="2021-07-27T15:09:45 IST" finished-at="2021-07-27T15:09:45 IST">
+    <test name="Default test" duration-ms="55" started-at="2021-08-02T14:14:15 IST" finished-at="2021-08-02T14:14:15 IST">
+      <class name="webDriverAdvanced.HCL.Log4j">
+        <test-method status="PASS" signature="log()[pri:0, instance:webDriverAdvanced.HCL.Log4j@77f80c04]" name="log" duration-ms="19" started-at="2021-08-02T14:14:15 IST" finished-at="2021-08-02T14:14:15 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUpClass -->
-        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumber_Runner.Cucumber_Runner@7e9a5fbe]" name="runScenario" duration-ms="15488" started-at="2021-07-27T15:09:45 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-07-27T15:10:01 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Testing Login feature with valid credentials"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Optional[Testing the Login feature]"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:cucumber_Runner.Cucumber_Runner@7e9a5fbe]" name="tearDownClass" is-config="true" duration-ms="42" started-at="2021-07-27T15:10:01 IST" finished-at="2021-07-27T15:10:01 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDownClass -->
-      </class> <!-- cucumber_Runner.Cucumber_Runner -->
+        </test-method> <!-- log -->
+      </class> <!-- webDriverAdvanced.HCL.Log4j -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
